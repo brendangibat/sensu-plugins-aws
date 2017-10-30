@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
   s.version                = SensuPluginsAWS::Version::VER_STRING
 
   s.add_runtime_dependency 'aws-sdk',           '~> 2.10'
-  s.add_runtime_dependency 'aws-sdk-v1',        '1.66.0'
   s.add_runtime_dependency 'fog',               '1.32.0'
   # 1.44 requires xmlrpc which only supports >= ruby 2.3
   # https://github.com/fog/fog-core/issues/206
